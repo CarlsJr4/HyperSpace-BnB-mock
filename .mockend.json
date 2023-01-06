@@ -1,11 +1,61 @@
 {
-  "Post": {
-    "_": { "items": 20 },
-    "title": { "string": {} },
-    "comments": { "hasMany": "Comment" }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": { "belongsTo": "Post" }
+  "Listing": {
+    "_": { "items": 30 },
+    "habName": { "string": [
+			"Epsilon Antliae III",
+			"Kappa Cassiopeiae III",
+			"Hadar V",
+			"Alpha Solarii IV",
+			"Deneb V",
+			"Nu Cerberi V",
+			"Mimosa III",
+			"Sigma Persei Prime",
+			"Polaris III",
+			"Mimosa VII",
+			"Cora Prime",
+			"Deneb IV",
+			"Beta Antinoi III",
+			"Hivi II",
+			"Teme II",
+			"Phi Tucanae VI",
+			"Betelgeuse VI",
+			"Mimosa VI",
+			"Psi Noctuae II"
+		] },
+		"celestialBody": {"string": [
+			"Luna",
+			"Mars",
+			"Jupiter",
+			"Neptune"
+		]},
+		"location": {"string": [
+			"Asherah",
+			"Oget",
+			"Linga",
+			"9761 Corvi",
+			"4118 Dou Xiu",
+			"Thuringwethil",
+			"Aule",
+			"9410 Antinoi",
+			"4061 Lilii",
+			"Utu",
+			"Abyon IV",
+			"Tauri",
+			"Irra V",
+			"New Titan",
+			"New Neith",
+			"Beri IV",
+			"Mori III",
+			"New Kenor",
+			"Modgud VII",
+			"Zhang-Guo-Lao"
+		]},
+		"freeBreakfast":  {"boolean": {}},
+		"petFriendly":  {"boolean": {}},
+		"vipLounge":  {"boolean": {}},
+		"indoorPool":  {"boolean": {}},
+		"rate": { "int": {"min": 2500, "max": 10000} },
+		"description": {"loremSentences": {"minLength": 100, "maxLength": 200}},
+		"image": "https://picsum\\.photos/seed/[0-9]{5}/500/500"
   }
 }
