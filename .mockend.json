@@ -56,6 +56,6 @@
 		"indoorPool":  {"boolean": {}},
 		"rate": { "int": {"min": 2500, "max": 10000} },
 		"description": {"loremSentences": {"minLength": 100, "maxLength": 200}},
-		"image": "https://picsum\\.photos/seed/[0-9]{5}/500/500"
+		"image": {"regexp": "https://picsum\\.photos/seed/[0-9]{5}/500/500"}
   }
 }
