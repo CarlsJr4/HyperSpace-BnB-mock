@@ -1,6 +1,6 @@
 {
   "Listing": {
-    "_": { "items": { "int": {"min": 2500, "max": 10000} } },
+    "_": { "items": 45 },
     "habName": { "string": [
 			"Epsilon Antliae III",
 			"Kappa Cassiopeiae III",
