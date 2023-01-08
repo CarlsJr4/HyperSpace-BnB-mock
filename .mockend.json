@@ -22,6 +22,7 @@
 			"Mimosa VI",
 			"Psi Noctuae II"
 		] },
+		"rating": {"int": {"min": 2, "max": 5}},
 		"celestialBody": {"string": [
 			"Luna",
 			"Mars",
